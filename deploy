@@ -1,0 +1,8 @@
+-#!/bin/sh
+ssh cameramen@31.177.95.235 <<EOF
+ cd /jenktest
+ git pull
+ npm install --production
+ pm2 restart all
+ exit
+EOF
