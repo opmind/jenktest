@@ -1,4 +1,4 @@
--#!/bin/bash
+#!/bin/sh
 ssh cameramen@31.177.95.235 <<EOF
  cd ./jenktest
  git pull
